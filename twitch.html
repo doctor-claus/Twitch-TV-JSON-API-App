@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Twitch Live Stream Viewer | Souvik Dey</title>
+	<link rel= "stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href= "Semantic-UI-CSS-master/semantic.min.css" type= "text/css" rel= "stylesheet">	 
+	<link rel= "stylesheet" href= "styles.css">
+</head>
+<body>
+	<div class= "container">
+		<div class= "image">
+			<img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Twitch_logo_%28wordmark_only%29.svg/455px-Twitch_logo_%28wordmark_only%29.svg.png">
+		</div>
+		<div class= "body">
+			<div class= "search1">
+				<div class="ui search">
+  					<input class="prompt" type="text" placeholder="Enter name...">
+				</div>
+			</div>
+			<div class= "tabs">
+				<button class="tablink active" data-tab= ".all">All</button>
+				<button class="tablink" data-tab= ".online1">Online</button>
+				<button class="tablink" data-tab= ".offline">Offline</button>
+			</div>
+			<div class= "online">
+				<div class= "tabcontent">
+					<div class= "tab all"></div>
+					<div class= "tab online1"></div>
+					<div class= "tab offline"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script type="text/javascript" src= "main.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+.image{
+	margin: auto;
+	text-align: center;
+}
+img{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 200px;
+}
+.body{
+	height: 500px;
+	width: 100%;
+	background-color: black;
+}
+.online{
+	background-color: white;
+	color: black;
+	width: 50%;
+	height: 83%;
+	margin: 0 auto;
+	overflow: scroll;
+}
+.tablink {
+    background-color: #391483;
+    color: white;
+    float:left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 33.33%;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.tablink:hover {
+    background-color: #8754EC;
+}
+.online1,.offline{
+	display: none;
+}
+.active{
+	background-color: #8754EC;
+}
+.tabs{
+	width: 50%;
+	margin: 0 auto;
+}
+.well{
+	margin-bottom: 0px;
+}
+.search1{
+	width: 50%;
+	margin: 0 auto;
+}
+.prompt{
+	width: 100%;
+}
+
